@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+/*titulo */
+header{
+  height: 73px;
+  overflow: hidden;
+}
+
+ header h1{
+ color: rgb(255, 255, 255);
+ text-align: center;
+ font-family:'raleway', sans-serif;
+ font-size: 59px;
+ margin: 11.5px;
+}
+/**/
+
+/*imagen pirncipal*/
+.slider{
+  background-image: url(../img/fondo.jpg);
+  height: 727px;
+  background-size: cover;
+}
+/*final*/
+
+/*seccion principal */
+main{
+  background-color: black;
+  overflow: hidden;
+
+}
+.main p{
+  color:white;
+  width: 50%;
+  float: left;
+  font-size: large;
+  font-family:'raleway', sans-serif;
+  position: relative;
+  left: 400px;
+  top: 2em;
+}
+
+.box{
+  width: 80%;
+}
+
+.main_image img{
+  position: relative;
+  left: 28rem;
+}
+/*final*/
+
+/*caracteristicas*/
+.caracteristicas{
+  background-color: #1E1A13;
+  height:348px;
+  overflow: hidden;
+ }
+
+ .caracteristicas h2{
+  color: white;
+  text-align: center;
+  font-size: 47px;
+  font-family:'raleway', sans-serif;
+  margin: 50px;
+ }
+
+ .icono_ojo i{
+  color:white;
+  font-size: 70px;
+  position: absolute;
+  top: 127%;
+  left: 34%;
+ }
+
+ .parrafo{
+  color: white;
+  font-family:'raleway', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  left:33.2%;
+  top:131%;
+ }
+
+ .icono_mano i{
+  color:white;
+  font-size: 70px;
+  position: absolute;
+  left: 49% ;
+  top: 122.5%;
+ }
+
+ .parrafo_dos{
+  color: white;
+  font-family:'raleway', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  left:48% ;
+  top:131.1%;
+ }
+ .icono_pincel i{
+  color:white;
+  font-size: 67px;
+  position: absolute;
+  left: 62%;
+  top:123%;
+ }
+  .parrafo_tres{
+  color: white;
+  font-family:'raleway', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  left:59% ;
+  top:131.1%;
+ }
+
+/*final*/
+
+/* galeria de imagenes */
+ .imagenes{
+  height: 348px;
+  background-color: black;
+  overflow: hidden;
+
+ }
+.box_image img{
+  position: relative;
+  left:8%;
+  top:2rem; 
+}
+.box_image_dos img{
+  position: relative;
+  left:35%;
+  bottom:15.9rem;
+  height: 17.8rem; 
+ 
+}
+.box_image_tres img{
+  position: relative;
+  left:62%;
+  bottom:33.9rem;
+  height: 17.8rem;
+}
+/*final*/
+
+ footer{
+  height: 102px;
+  background-color: #1E1A13;
+  overflow: hidden  ;
+ }
+
+ footer p {
+  color:white;
+  font-size: 24px;
+  text-align: center;
+  margin: 39px;
+ }
